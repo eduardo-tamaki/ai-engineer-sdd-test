@@ -17,11 +17,11 @@ Este teste avalia sua capacidade de **resolver um problema usando AI como ferram
 
 ### Como funciona o cronômetro
 
-Você escolhe quando começa. As fases 1, 2 e 3 são feitas em sequência, no mesmo dia, sem pausa longa. Use a regra do honor system — confiamos no seu tempo declarado. Anote no `CHANGES.md` quando começou e terminou cada fase.
+As fases 1, 2 e 3 são feitas **presencialmente**, em sequência, com um avaliador presente. Ele acompanha o tempo de cada fase. Você ainda anota início e fim no `CHANGES.md` — fica como registro para o recap. A Fase 4 é agendada depois, remota.
 
 ### Fase 1 — Leitura e dúvidas (10 min)
 
-Leia o enunciado inteiro. Se tiver dúvida, mande por escrito ao avaliador **antes** de começar a Fase 2 — vamos responder em até algumas horas. As perguntas que você faz também são avaliadas: elas mostram como você aborda um problema novo.
+Leia o enunciado inteiro. Tire dúvidas com o avaliador **antes** de começar a Fase 2 — ele está ali pra responder. As perguntas que você faz também são avaliadas: elas mostram como você aborda um problema novo.
 
 Sempre pergunte em caso de dúvidas.
 
@@ -55,10 +55,9 @@ Implemente sua solução. Use a AI da forma que preferir (Cursor, Copilot, Claud
 
 **Requisitos obrigatórios desta fase:**
 
-- **(Se feito remotamente) Salve o histórico das suas interações com a AI.** Export do chat, link compartilhável da sessão, ou screenshots — qualquer formato que permita ao avaliador reconstruir como você usou a ferramenta. Sem isso, o recap fica muito mais difícil pra você.
-- **(Se feito remotamente) Documente desvios do plano e o que ficou de fora.** Escreva no `CHANGES.md` o que mudou em relação à Fase 2 e o que você decidiu não implementar (e por quê). Mudanças justificadas são valorizadas; cortes silenciosos levantam dúvidas.
+- **Documente desvios do plano e o que ficou de fora.** Escreva no `CHANGES.md` o que mudou em relação à Fase 2 e o que você decidiu não implementar (e por quê). Mudanças justificadas são valorizadas; cortes silenciosos levantam dúvidas.
 
-**Bônus — usar sua spec como contexto da AI.** Você pode (não é obrigatório) usar o documento da Fase 2 como contexto direto pros prompts da Fase 3 — passando ele inteiro ou em pedaços. Se fizer isso, deixe claro no histórico. Vamos avaliar quão bem sua spec serviu de input pra AI: spec ruim gera código ruim, e isso vira sinal real de qualidade do que você escreveu na Fase 2.
+- **Use sua spec como contexto da AI.** Você pode (não é obrigatório) usar o documento da Fase 2 como contexto direto pros prompts da Fase 3 — passando ele inteiro ou em pedaços. Se fizer isso, deixe claro no histórico. Vamos avaliar quão bem sua spec serviu de input pra AI: spec ruim gera código ruim, e isso vira sinal real de qualidade do que você escreveu na Fase 2.
 
 ### Fase 4 — Recap síncrono (20–30 min, agendado após a entrega)
 
@@ -215,10 +214,6 @@ Envie tudo antes do recap. Não atualize nada após o envio — o recap é sobre
 **Preciso seguir uma metodologia específica de SDD?** Não. Se você conhece Spec Kit, Kiro, BDD ou outro framework, à vontade. Se não, organize do jeito que fizer sentido. Avaliamos os artefatos, não o vocabulário.
 
 **E se eu não terminar a Fase 3 em 60 min?** Pare. O tempo é parte da avaliação. Entregar 60% bem-feito é melhor que 100% mal-feito. Liste o que faltou no `CHANGES.md`.
-
-**Posso passar de 2h?** Não. Se passar, anote no `CHANGES.md` e seja honesto — vamos descontar na avaliação, mas escondido vira sinal pior.
-
-**Posso fazer pausa entre fases?** Pequenas (5–10 min, água, banheiro), tudo bem. Pausas longas quebram o cronômetro e descaracterizam o teste.
 
 **Posso mudar a API mockada?** Sim, à vontade. Documente as mudanças.
 
