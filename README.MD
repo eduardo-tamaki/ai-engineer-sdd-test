@@ -153,10 +153,6 @@ Em vez de listar fluxos numerados, listamos **situações** que o agente precisa
 
 4. **Informações fora de ordem.** Usuário pode mandar o patient ID antes de pedir um exame, ou pedir o exame antes de mandar o ID, ou mandar tudo junto numa frase. O agente lida com qualquer ordem sem perguntar coisas que já foram respondidas.
 
-### Bônus (se sobrar tempo)
-
-- **Mudança de ideia no meio do fluxo.** Usuário pediu ressonância, agente já mostrou slots, usuário diz "ah, na verdade quero raio-X". Idealmente o grafo lida com isso sem reiniciar a conversa. Se for cíclico só no nome mas linear na prática, conta como linear.
-
 ### Restrições técnicas
 
 - A arquitetura deve suportar **fluxo agêntico** — capacidade de o agente decidir o próximo passo com base no estado, não só seguir um pipeline fixo. Cadeia linear com `if/else` espalhados não atende.
@@ -196,8 +192,6 @@ Envie tudo num único repositório (fork deste ou novo):
 
 1. Documento de especificação da Fase 2 (markdown, txt, ou PDF) — ex.: `SPEC.md` na raiz.
 2. Código da solução.
-3. Histórico de interações com AI da Fase 3 (arquivo, link ou pasta).
-4. `CHANGES.md` com: horário de início e fim de cada fase, desvios em relação à Fase 2, e o que ficou de fora.
 
 Envie tudo antes do recap. Não atualize nada após o envio — o recap é sobre o que você entregou, não sobre o que você queria ter entregue.
 
