@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.uv/
+
+# Env
+.env
+.env.local
+
+# Chainlit
+.chainlit/
+.files/
+chainlit.md
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# others
+.claude
+__pycache__
